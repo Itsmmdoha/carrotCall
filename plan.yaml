@@ -1,0 +1,20 @@
+Name: CarrotCall 
+Purpose: Make Screenshots searchable/racallable
+
+Functionality:
+  - Take a Screenshots directory path
+  - Analyze images visually (ocr & objects) 
+  - Store those in a database 
+  - take query form users 
+  - present 10 relevant restults 
+  - watch directory for newly addded or deleted Screenshots
+
+
+
+stack:
+  - Pytessaract for OCR 
+  - Yolov8 for object detection (onnx for packaging)
+  - ChromaDB for vector store and search 
+  - streamlit for building UI 
+
+
